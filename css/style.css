@@ -627,6 +627,7 @@ a {
     background-color: var(--secondary-color);
     position: relative;
     height: 360px;
+       text-align: center;
     
 }
 
@@ -646,7 +647,8 @@ a {
     background-color: transparent;
     border: 1px solid var(--main-color);
     width: fit-content;
-    letter-spacing: 10px;
+    letter-spacing: 9px;
+    font-size: 13px;
     color: var(--main-color);
     z-index: 100;
     position: absolute;
