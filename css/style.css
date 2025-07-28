@@ -571,17 +571,18 @@ a {
     margin-top: 90px;
 }
 
-.portfolio .box {
+..portfolio .box {
     position: relative;
+    overflow: hidden;
 }
 
 .portfolio .box::before {
     position: absolute;
     content: "Item Name";
     background-color: var(--main-color);
-    width: 85%;
+    width: calc(100% - 30px);
     text-align: center;
-    bottom: 0;
+    top: 100%;
     /* height: 30px; */
     padding: 15px 20px;
     transition: var(--main-transition);
@@ -589,7 +590,7 @@ a {
 }
 
 .portfolio .box:hover::before {
-    bottom: 84%;
+    top: 0;
     opacity: 1;
 }
 
