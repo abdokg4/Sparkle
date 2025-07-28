@@ -471,7 +471,6 @@ a {
 
 .stats .box:hover {
     opacity: 1;
-    transform: translateY(-15px);
 }
 
 .stats .box .number {
@@ -571,7 +570,7 @@ a {
     margin-top: 90px;
 }
 
-..portfolio .box {
+.portfolio .box {
     position: relative;
     overflow: hidden;
 }
