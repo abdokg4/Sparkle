@@ -471,6 +471,7 @@ a {
 
 .stats .box:hover {
     opacity: 1;
+    transform: translateY(-15px);
 }
 
 .stats .box .number {
